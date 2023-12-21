@@ -64,7 +64,7 @@ const initialFormData = {
   category: "RetroFit",
   sizes: [],
   deliveryInfo: "",
-  onSale: "no",
+  onSale: "yes",
   imageUrl: "",
   priceDrop: 0,
 };
