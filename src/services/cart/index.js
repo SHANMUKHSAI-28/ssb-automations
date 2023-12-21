@@ -2,7 +2,7 @@ import Cookies from "js-cookie";
 
 export const addToCart = async (formData) => {
   try {
-    const res = await fetch("/api/cart/add-to-cart", {
+    const res = await fetch("https://ssb-automations.vercel.app/api/cart/add-to-cart", {
       method: "POST",
       headers: {
         "content-type": "application/json",
