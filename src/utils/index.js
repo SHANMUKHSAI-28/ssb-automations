@@ -8,21 +8,21 @@ export const navOptions = [
     id: "listing",
     label: "All Products",
     path: "/product/listing/all-products",
-  },
+  },  
   {
     id: "listingRetroFit",
     label: "RetroFit",
     path: "/product/listing/RetroFit",
   },
   {
-    id: "listingWomen",
-    label: "Women",
-    path: "/product/listing/women",
+    id: "listingSmartDevices",
+    label: "SmartDevices",
+    path: "/product/listing/SmartDevices",
   },
   {
-    id: "listingKids",
-    label: "kids",
-    path: "/product/listing/kids",
+    id: "listingCHA",
+    label: "Complete Home Automation",
+    path: "/product/listing/CHA",
   },
 ];
 
@@ -127,16 +127,16 @@ export const adminAddProductformControls = [
     componentType: "select",
     options: [
       {
-        id: "men",
-        label: "Men",
+        id: "RetroFit",
+        label: "Retro Fit",
       },
       {
-        id: "women",
-        label: "Women",
+        id: "SmartDevices",
+        label: "Smart Devices",
       },
       {
-        id: "kids",
-        label: "Kids",
+        id: "CHA",
+        label: "Complete Home Automation",
       },
     ],
   },
